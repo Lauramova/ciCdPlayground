@@ -26,4 +26,5 @@ jobs:
         if: always()
         with:
           name: junit-results
-          path: reports/*.xml
+          files: |
+            reports/*.xml
